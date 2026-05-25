@@ -1,0 +1,28 @@
+name: file_converter
+description: Многофункциональный конвертер файлов
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  pdf: ^3.10.8
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+  share_plus: ^7.2.2
+  permission_handler: ^11.3.0
+  image: ^4.1.7
+  uuid: ^4.3.3
+  file_picker: ^8.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
